@@ -1,0 +1,14 @@
+###
+GET http://localhost:3000/
+
+###
+GET http://localhost:3000/api/articles?limit=3
+
+###
+GET http://localhost:3000/api/articles
+###
+GET http://localhost:3000/api/articles/5
+###
+DELETE http://localhost:3000/api/articles/7
+###
+GET http://localhost:3000/api/articles/archive
