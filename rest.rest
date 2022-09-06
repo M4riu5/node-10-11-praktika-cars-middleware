@@ -2,10 +2,20 @@
 GET http://localhost:3000/
 
 ###
-GET http://localhost:3000/api/articles?limit=3
+GET http://localhost:3000/api/cars
+###
+POST http://localhost:3000/api/cars
+Content-Type: application/json
+
+{
+    "foo": "bar"
+}
+###
+
+DELETE  http://localhost:3000/api/cars/1
 
 ###
-GET http://localhost:3000/api/articles
+GET http://localhost:3000/api/cars/1
 ###
 GET http://localhost:3000/api/articles/5
 ###
